@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #cfcfcf;
+}
+
+/* ------------------- main code -------------------*/
+
+.gs-container-header-general {
+    width: 1024px;
+    height: auto;
+    display: table;
+    background-color: transparent;
+    margin: 30px auto 0 auto;
+}
+
+/* Top bar */
+
+.gs-topbar-container {
+    width: 1024px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: relative;
+}
+.gs-logo {
+    color: #2f2f2f;
+    letter-spacing: 4px;
+}
+.gs-navigation-container {
+    position: absolute;
+    right: 30px;
+}
+.gs-nav-links {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.gs-nav-links:hover {
+    color: #6e6e6e;
+}
+.gs-btn-donate {
+    width: 115px;
+    height: 43px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2f2f2f;
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+.gs-btn-donate:hover {
+    background-color: rgba(47, 47, 47,0.8);
+    cursor: pointer;
+}
+
+/* Top Image */
+.gs-top-content-container {
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: relative;
+}
+.gs-top-content {
+    width: 1024px;
+    height: 450px; 
+    position: relative;
+}
+.gs-image-container {
+    width: 100%;
+    height: 450px;
+    display: block;
+    position: relative;
+}
+.gs-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.gs-top-container-content {
+    width: 512px;
+    height: 450px;
+    position: absolute;
+    background-color: transparent;
+    z-index: 999;
+}
+.gs-top-container-text {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 100px;
+    left: 100px;
+    margin: auto;
+}
+.gs-top-text {
+    font-size: 18px;
+    color: #fff;
+}
+.gs-button-top-container {
+    width: 120px;
+    height: 51px;
+    display: table;
+    background-color: transparent;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    bottom: 0;
+    right: 130px;
+    margin: auto;
+}
+.gs-top-button {
+    width: 100%;
+    height: 51px;
+    display: block;
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.2s ease-out;
+}
+.gs-top-button:hover {
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+}
+.gs-donations-threes {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+}
+.gs-style-bar-container {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    width: 50%;
+}
+.gs-top-style-bar {
+    border-top: 1px solid #fff;
+}
+.gs-top-data {
+    color: #fff;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+/* Main content */
+
+.gs-main-container-general {
+    width: 1024px;
+    height: 100vh;
+    display: table;
+    background-color: white;
+    margin: 0 auto;
+    z-index: 999;
+}
+.gs-main-content-container {
+    width: 960px;
+    height: 600px;
+    display: block;
+    margin: 30px auto 30px auto;
+    background-color: transparent;
+}
+.gs-main-content-body {
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.gs-container-image-main {
+    width: 100%;
+    height: 70%;
+    display: block;
+    background-color: white;
+    position: relative;
+}
+.gs-main-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: -72px;
+    left: 0;
+    border-radius: 8px;
+}
+.gs-main-text {
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #525560;
+    margin-left: 50px;
+}
+.gs-title-main{
+    width: 70%;
+    color: #1D2130;
+    margin-left: 50px;
+}
+.gs-main-button {
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #70C174;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 50px;
+    transition: all 0.3s ease-out;
+}
+.gs-main-button:hover {
+    background-color: rgba(112, 193, 116, 0.8);
+    cursor: pointer;
+}
+.gs-subtitle-main {
+    margin-left: 50px;
+    text-transform: lowercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.gs-container-main-footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-top: 30px;
+}
+.gs-container-icons-footer {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 30px;
+}
+.gs-icons-footer {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.footer-icons {
+    font-size: 32px;
+    color: #525560;
+    margin-left: 30px;
+}
+.gs-title-footer {
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    font-weight: 600;
+}
